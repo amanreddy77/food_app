@@ -28,8 +28,7 @@ app.use('/payments',paymentRoutes)
 app.use('/uploads',express.static('uploads'));
 
 const PORT = process.env.PORT || 10000;
-const USERNAME = process.env.DB_USERNAME;
-const PASSWORD = process.env.DB_PASSWORD;
+
 
 const URI = process.env.MONGODB_URI || `mongodb+srv://amanreddy77:Psreddy77.@cluster0.ngex3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
 
