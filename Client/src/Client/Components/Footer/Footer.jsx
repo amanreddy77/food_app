@@ -106,7 +106,7 @@ const Footer = () => {
                 </div>
                 <div>
                     <p className="font-medium">&copy; {new Date().getFullYear()} YumZ. All rights reserved.</p> <br />
-                    <p className="text-gray-400">Designed and Developed by <a href="https://nanduvarmaportfolio.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:text-green-500">Nandu Varma</a></p>
+                    <p className="text-gray-400">Designed and Developed by <a href="https://portfolio-aman-gamma.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-green-500">Aman Reddy </a></p>
                 </div>
             </div>
         </footer>
