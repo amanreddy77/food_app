@@ -27,7 +27,7 @@ app.use('/admin',adminRoutes)
 app.use('/payments',paymentRoutes)
 app.use('/uploads',express.static('uploads'));
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 10000;
 const USERNAME = process.env.DB_USERNAME;
 const PASSWORD = process.env.DB_PASSWORD;
 
